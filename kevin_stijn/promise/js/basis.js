@@ -1,7 +1,7 @@
-//a var to check promise is true
+//een var om te kijken of het true of fales is
 var tf = 'test';
 
-//make a prommis with 2  parameter: succses and fail (resolve, reject)
+//maak een prommis met 2  parameter: succses en fail (resolve, reject)
 var exp = new Promise (function(resolve, reject){
 	if (tf == 'test') {
 		//resolve statement
