@@ -84,5 +84,9 @@ document.write("<br><br>" + VAL);
 //Nieuwe manier
 const val = "Value";
 //Met een const krijg je de error dat het "read only" is dus kan je het niet veranderen
-//val = "Not Value";
+val = "Not Value";
 document.write("<br>" + val);
+
+//------------------------------------------------------------------------------
+// proxies
+//------------------------------------------------------------------------------
